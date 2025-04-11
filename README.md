@@ -1,16 +1,16 @@
-# DevOps Git Workflow Ì∫Ä
+# DevOps Git Workflow 
 
 This project demonstrates a simple Node.js app containerized with Docker, along with Git best practices such as branching, pull requests, tagging, and proper documentation.
 
 ---
 
-## Ì≥¶ Project Overview
+## Project Overview
 
 A basic Express.js application that returns a greeting message at the homepage. It‚Äôs containerized using Docker to ensure consistent deployment across environments.
 
 ---
 
-## Ìª†Ô∏è Tech Stack
+## Tech Stack
 
 - Node.js
 - Express.js
@@ -19,7 +19,7 @@ A basic Express.js application that returns a greeting message at the homepage. 
 
 ---
 
-## Ì¥Å Full Setup Instructions
+## Full Setup Instructions
 
 Follow these steps to clone and run the app inside Docker:
 
@@ -47,25 +47,25 @@ http://localhost:3000
 ```
 
 You should see:
-Hello, this is RAM's Node.js app running in Docker Ì∫Ä
+Hello, this is RAM's Node.js app running in Docker ÔøΩÔøΩÔøΩ
 
-# Ì≥Å Create and switch to a new feature branch
+### Create and switch to a new feature branch
 git checkout -b feature/docker-node-app
 
-# Make a Small Change (Optional)
+### Make a Small Change
 If you want, edit index.js slightly to simulate a real feature update:
 
-# ‚úÖ Stage, commit, and push changes to GitHub
+### ‚úÖ Stage, commit, and push changes to GitHub
 git add index.js
 git commit -m "Update: improved homepage message"
 git push origin feature/docker-node-app
 
-# Ì¥Ä Create a Pull Request (PR) on GitHub:
-# ‚Üí Go to GitHub repo
-# ‚Üí Open a PR from feature/docker-node-app to main
-# ‚Üí Review and merge it
+### Create a Pull Request (PR) on GitHub:
+ ‚Üí Go to GitHub repo
+ ‚Üí Open a PR from feature/docker-node-app to main
+ ‚Üí Review and merge it
 
-# Ìø∑Ô∏è Tag the release after merge
+### Tag the release after merge
 git checkout main
 git pull origin main
 git tag v1.0
@@ -73,4 +73,4 @@ git push origin v1.0
 
 ---
 
-Thank YouÌπå
+#Thank You
