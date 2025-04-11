@@ -47,30 +47,35 @@ http://localhost:3000
 ```
 
 You should see:
-Hello, this is RAM's Node.js app running in Docker ���
+Hello, this is RAM's Node.js app running in Docker
 
 ### Create and switch to a new feature branch
+```bash
 git checkout -b feature/docker-node-app
+```
 
 ### Make a Small Change
 If you want, edit index.js slightly to simulate a real feature update:
 
 ### ✅ Stage, commit, and push changes to GitHub
+```bash
 git add index.js
 git commit -m "Update: improved homepage message"
 git push origin feature/docker-node-app
+```
 
 ### Create a Pull Request (PR) on GitHub:
- → Go to GitHub repo
- → Open a PR from feature/docker-node-app to main
- → Review and merge it
+#### → Go to GitHub repo
+#### → Open a PR from feature/docker-node-app to main
+#### → Review and merge it
 
 ### Tag the release after merge
+```bash
 git checkout main
 git pull origin main
 git tag v1.0
 git push origin v1.0
-
+```
 ---
 
 #Thank You
