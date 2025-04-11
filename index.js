@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hello, myself RAM');
+  res.send('Hello, this is RAM\'s Node.js app running in Dockerí´¥');
 });
 
 app.listen(3000, () => {
